@@ -15,10 +15,7 @@ public class Main {
         automato.setSentenca(palavra);
 
         // Verifica se a sentença é aceita pelo autômato
-        boolean aceita = automato.verificaSetenca();
-
-        // Imprime o resultado
-        if (aceita) {
+        if (automato.verificaSetenca()) {
             System.out.println("A sentença foi aceita pelo autômato!");
         } else {
             System.out.println("A sentença não foi aceita pelo autômato!");
